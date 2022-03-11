@@ -1,0 +1,24 @@
+{
+  "name": "mytool",
+  "version": "1.0.0",
+  "description": "My Test tool",
+  "main": "index.js",
+  "bin": {
+    "todos": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git-commit": "git add -A . && git commit -a -m 'new update'",
+    "patch-release": "npm version patch && npm publish && git push --follow-tags"
+  },
+  "keywords": [
+    "tool"
+  ],
+  "author": "Rajendra Khope",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "commander": "^9.0.0",
+    "conf": "^10.1.1"
+  }
+}

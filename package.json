@@ -1,6 +1,6 @@
 {
   "name": "@bkrajendra/cocoman",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Confluxsys Container Management Tool",
   "bin": {
     "cocoman": "index.js"
@@ -11,7 +11,9 @@
     "patch-release": "npm version patch && npm publish --access public && git push --follow-tags"
   },
   "keywords": [
-    "docker", "container", "tool"
+    "docker",
+    "container",
+    "tool"
   ],
   "author": "Rajendra Khope",
   "license": "ISC",

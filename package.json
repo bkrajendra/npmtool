@@ -1,6 +1,6 @@
 {
   "name": "@bkrajendra/cocoman",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My Test tool",
   "bin": {
     "cocoman": "index.js"
